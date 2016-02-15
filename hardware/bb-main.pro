@@ -1,4 +1,4 @@
-update=12.2.2016 г. 15:47:52
+update=14.2.2016 г. 15:57:21 ч.
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,3 +61,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=microchip_pic16mcu
+LibName31=libs/bb

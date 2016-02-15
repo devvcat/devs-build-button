@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BU33TD3WG-TR
+D 200 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SSOP5
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/buxxtd3wg-e.pdf
+$ENDCMP
+#
+#End Doc Library
