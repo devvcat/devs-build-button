@@ -4,9 +4,9 @@ EESchema-LIBRARY Version 2.3
 # BU33TD3WG-TR
 #
 DEF BU33TD3WG-TR U 0 40 Y Y 1 F N
-F0 "U" -200 300 60 H V C CNN
+F0 "U" -298 277 60 H V C CNN
 F1 "BU33TD3WG-TR" 0 200 60 H V C CNN
-F2 "" -300 200 60 H V C CNN
+F2 "SSOP5" 0 100 40 H V C CIN
 F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/buxxtd3wg-e.pdf" 0 -400 60 H I C CNN
 $FPLIST
  SSOP*
