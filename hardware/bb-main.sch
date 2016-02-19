@@ -80,9 +80,9 @@ U 1 1 56BE0A41
 P 3900 2850
 F 0 "C1" H 3925 2950 50  0000 L CNN
 F 1 "470nF" H 3925 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3938 2700 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3938 2700 50  0001 C CNN
 F 3 "" H 3900 2850 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/29233/" H 3900 2850 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/5953/" H 3900 2850 60  0001 C CNN "Store"
 	1    3900 2850
 	1    0    0    -1  
 $EndComp
@@ -178,9 +178,9 @@ U 1 1 56C1E999
 P 5050 1800
 F 0 "C3" H 5075 1900 50  0000 L CNN
 F 1 "100nF" H 5075 1700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5088 1650 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 1650 50  0001 C CNN
 F 3 "" H 5050 1800 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/23307/" H 5050 1800 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/5957/" H 5050 1800 60  0001 C CNN "Store"
 	1    5050 1800
 	1    0    0    -1  
 $EndComp
@@ -204,9 +204,9 @@ U 1 1 56C225D6
 P 3650 2850
 F 0 "R1" V 3730 2850 50  0000 C CNN
 F 1 "10k" V 3650 2850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3580 2850 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3580 2850 50  0001 C CNN
 F 3 "" H 3650 2850 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/29102/" V 3650 2850 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/29639/" V 3650 2850 60  0001 C CNN "Store"
 	1    3650 2850
 	1    0    0    -1  
 $EndComp
@@ -336,9 +336,9 @@ U 1 1 56C3C428
 P 4900 4550
 F 0 "R2" V 4980 4550 50  0000 C CNN
 F 1 "10k" V 4900 4550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4830 4550 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4830 4550 50  0001 C CNN
 F 3 "" H 4900 4550 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/29102/" V 4900 4550 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/29639/" V 4900 4550 60  0001 C CNN "Store"
 	1    4900 4550
 	1    0    0    -1  
 $EndComp
@@ -367,9 +367,9 @@ U 1 1 56C3F38F
 P 5450 4750
 F 0 "R3" V 5530 4750 50  0000 C CNN
 F 1 "390" V 5450 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5380 4750 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5380 4750 50  0001 C CNN
 F 3 "" H 5450 4750 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/29587/" V 5450 4750 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/3452/" V 5450 4750 60  0001 C CNN "Store"
 	1    5450 4750
 	1    0    0    -1  
 $EndComp
@@ -452,9 +452,9 @@ U 1 1 56C5303A
 P 6200 2300
 F 0 "C4" H 6225 2400 50  0000 L CNN
 F 1 "100nF" H 6225 2200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6238 2150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 2150 50  0001 C CNN
 F 3 "" H 6200 2300 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/23307/" H 6200 2300 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/5957/" H 6200 2300 60  0001 C CNN "Store"
 	1    6200 2300
 	1    0    0    -1  
 $EndComp
@@ -527,9 +527,9 @@ U 1 1 56C4D464
 P 7250 5250
 F 0 "R9" V 7330 5250 50  0000 C CNN
 F 1 "16k" V 7250 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7180 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7180 5250 50  0001 C CNN
 F 3 "" H 7250 5250 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3646/" V 7250 5250 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/4838/" V 7250 5250 60  0001 C CNN "Store"
 	1    7250 5250
 	-1   0    0    1   
 $EndComp
@@ -539,9 +539,9 @@ U 1 1 56C4D503
 P 7400 5250
 F 0 "R10" V 7480 5250 50  0000 C CNN
 F 1 "16k" V 7400 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7330 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 5250 50  0001 C CNN
 F 3 "" H 7400 5250 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3646/" V 7400 5250 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/4838/" V 7400 5250 60  0001 C CNN "Store"
 	1    7400 5250
 	-1   0    0    1   
 $EndComp
@@ -551,9 +551,9 @@ U 1 1 56C4D555
 P 7550 5250
 F 0 "R11" V 7630 5250 50  0000 C CNN
 F 1 "16k" V 7550 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7480 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7480 5250 50  0001 C CNN
 F 3 "" H 7550 5250 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3646/" V 7550 5250 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/4838/" V 7550 5250 60  0001 C CNN "Store"
 	1    7550 5250
 	-1   0    0    1   
 $EndComp
@@ -563,9 +563,9 @@ U 1 1 56C4D5A6
 P 7700 5250
 F 0 "R12" V 7780 5250 50  0000 C CNN
 F 1 "16k" V 7700 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7630 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7630 5250 50  0001 C CNN
 F 3 "" H 7700 5250 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3646/" V 7700 5250 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/4838/" V 7700 5250 60  0001 C CNN "Store"
 	1    7700 5250
 	-1   0    0    1   
 $EndComp
@@ -575,9 +575,9 @@ U 1 1 56C4E3B3
 P 7050 5050
 F 0 "R8" V 7130 5050 50  0000 C CNN
 F 1 "8.2k" V 7050 5050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6980 5050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 5050 50  0001 C CNN
 F 3 "" H 7050 5050 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3643/" V 7050 5050 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/5284/" V 7050 5050 60  0001 C CNN "Store"
 	1    7050 5050
 	0    -1   -1   0   
 $EndComp
@@ -587,9 +587,9 @@ U 1 1 56C4E445
 P 7050 4900
 F 0 "R7" V 7130 4900 50  0000 C CNN
 F 1 "8.2k" V 7050 4900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6980 4900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 4900 50  0001 C CNN
 F 3 "" H 7050 4900 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3643/" V 7050 4900 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/5284/" V 7050 4900 60  0001 C CNN "Store"
 	1    7050 4900
 	0    -1   -1   0   
 $EndComp
@@ -599,9 +599,9 @@ U 1 1 56C4E4BB
 P 7050 4750
 F 0 "R6" V 7130 4750 50  0000 C CNN
 F 1 "8.2k" V 7050 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6980 4750 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 4750 50  0001 C CNN
 F 3 "" H 7050 4750 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3643/" V 7050 4750 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/5284/" V 7050 4750 60  0001 C CNN "Store"
 	1    7050 4750
 	0    -1   -1   0   
 $EndComp
@@ -611,9 +611,9 @@ U 1 1 56C4E531
 P 7050 4600
 F 0 "R5" V 7130 4600 50  0000 C CNN
 F 1 "8.2k" V 7050 4600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6980 4600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 4600 50  0001 C CNN
 F 3 "" H 7050 4600 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3643/" V 7050 4600 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/5284/" V 7050 4600 60  0001 C CNN "Store"
 	1    7050 4600
 	0    -1   -1   0   
 $EndComp
@@ -667,9 +667,9 @@ U 1 1 56C4FF94
 P 7850 5250
 F 0 "R13" V 7930 5250 50  0000 C CNN
 F 1 "16k" V 7850 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7780 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7780 5250 50  0001 C CNN
 F 3 "" H 7850 5250 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3646/" V 7850 5250 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/4838/" V 7850 5250 60  0001 C CNN "Store"
 	1    7850 5250
 	-1   0    0    1   
 $EndComp
@@ -682,9 +682,9 @@ U 1 1 56C503E0
 P 7050 4450
 F 0 "R4" V 7130 4450 50  0000 C CNN
 F 1 "8.2k" V 7050 4450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6980 4450 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 4450 50  0001 C CNN
 F 3 "" H 7050 4450 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/3643/" V 7050 4450 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/5284/" V 7050 4450 60  0001 C CNN "Store"
 	1    7050 4450
 	0    -1   -1   0   
 $EndComp
