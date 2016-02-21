@@ -30,7 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:microchip_pic16mcu
 LIBS:bb
-LIBS:bb-main-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,9 +50,9 @@ U 1 1 56BDE38B
 P 3050 1500
 F 0 "P1" H 3250 1300 50  0000 C CNN
 F 1 "USB_B" H 3000 1700 50  0000 C CNN
-F 2 "Connect:USB_B" V 3000 1400 50  0001 C CNN
+F 2 "Connect:USB_Mini-B" V 3000 1400 50  0001 C CNN
 F 3 "" V 3000 1400 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/4227/" H 3050 1500 60  0001 C CNN "Store"
+F 4 "https://store.comet.bg/Catalogue/Product/5169/" H 3050 1500 60  0001 C CNN "Store"
 	1    3050 1500
 	1    0    0    -1  
 $EndComp
@@ -147,7 +146,11 @@ F 3 "" H 4050 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 1400 4050 1650
+	4050 1400 4050 1450
+Wire Wire Line
+	4050 1450 4050 1600
+Wire Wire Line
+	4050 1600 4050 1650
 Wire Wire Line
 	4050 1600 4100 1600
 Wire Wire Line
@@ -158,7 +161,9 @@ Wire Wire Line
 Wire Wire Line
 	5000 1450 5050 1450
 Wire Wire Line
-	5050 1400 5050 1650
+	5050 1400 5050 1450
+Wire Wire Line
+	5050 1450 5050 1650
 Connection ~ 5050 1450
 Connection ~ 4050 1600
 $Comp
@@ -245,11 +250,15 @@ Wire Wire Line
 Wire Wire Line
 	3650 3450 4050 3450
 Wire Wire Line
-	3650 3000 3650 4700
+	3650 3000 3650 3450
+Wire Wire Line
+	3650 3450 3650 4700
 Wire Wire Line
 	3650 2600 3650 2700
 Wire Wire Line
-	6050 2000 6050 2650
+	6050 2000 6050 2100
+Wire Wire Line
+	6050 2100 6050 2650
 Text Label 4050 3450 2    40   ~ 0
 ~MCLR~
 $Comp
@@ -282,16 +291,16 @@ Wire Wire Line
 $Comp
 L +3.3V #PWR08
 U 1 1 56C2FFFA
-P 6800 1450
-F 0 "#PWR08" H 6800 1300 50  0001 C CNN
-F 1 "+3.3V" H 6800 1590 50  0000 C CNN
-F 2 "" H 6800 1450 50  0000 C CNN
-F 3 "" H 6800 1450 50  0000 C CNN
-	1    6800 1450
+P 7600 1450
+F 0 "#PWR08" H 7600 1300 50  0001 C CNN
+F 1 "+3.3V" H 7600 1590 50  0000 C CNN
+F 2 "" H 7600 1450 50  0000 C CNN
+F 3 "" H 7600 1450 50  0000 C CNN
+	1    7600 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 1500 6800 1450
+	6800 1500 6650 1500
 $Comp
 L GND #PWR09
 U 1 1 56C301AB
@@ -304,10 +313,12 @@ F 3 "" H 7600 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 2000 5050 2000
+	4050 2000 4550 2000
+Wire Wire Line
+	4550 2000 5050 2000
 Connection ~ 4550 2000
 Wire Wire Line
-	7550 1500 7700 1500
+	7550 1500 7600 1500
 $Comp
 L SW_PUSH SW1
 U 1 1 56C3A73F
@@ -346,7 +357,9 @@ $EndComp
 Wire Wire Line
 	4700 4300 4700 4400
 Wire Wire Line
-	4700 4700 4700 4800
+	4700 4700 4700 4750
+Wire Wire Line
+	4700 4750 4700 4800
 $Comp
 L GND #PWR011
 U 1 1 56C3DBC8
@@ -619,19 +632,27 @@ F 4 "https://store.comet.bg/Catalogue/Product/5284/" V 7050 4600 60  0001 C CNN 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7200 5050 8050 5050
+	7200 5050 7250 5050
+Wire Wire Line
+	7250 5050 8050 5050
 Wire Wire Line
 	7250 5050 7250 5100
 Wire Wire Line
-	7200 4900 8050 4900
+	7200 4900 7400 4900
+Wire Wire Line
+	7400 4900 8050 4900
 Wire Wire Line
 	7400 4900 7400 5100
 Wire Wire Line
-	7200 4750 8050 4750
+	7200 4750 7550 4750
+Wire Wire Line
+	7550 4750 8050 4750
 Wire Wire Line
 	7550 4750 7550 5100
 Wire Wire Line
-	7200 4600 8050 4600
+	7200 4600 7700 4600
+Wire Wire Line
+	7700 4600 8050 4600
 Wire Wire Line
 	7700 4600 7700 5100
 Connection ~ 7700 4600
@@ -652,12 +673,20 @@ $EndComp
 Wire Wire Line
 	7250 5400 7250 5450
 Wire Wire Line
-	7250 5450 7850 5450
+	7250 5450 7400 5450
+Wire Wire Line
+	7400 5450 7550 5450
+Wire Wire Line
+	7550 5450 7700 5450
+Wire Wire Line
+	7700 5450 7850 5450
 Wire Wire Line
 	7700 5450 7700 5400
 Connection ~ 7250 5450
 Wire Wire Line
-	7550 5400 7550 5500
+	7550 5400 7550 5450
+Wire Wire Line
+	7550 5450 7550 5500
 Connection ~ 7550 5450
 Wire Wire Line
 	7400 5400 7400 5450
@@ -690,7 +719,9 @@ F 4 "https://store.comet.bg/Catalogue/Product/5284/" V 7050 4450 60  0001 C CNN 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7200 4450 8050 4450
+	7200 4450 7850 4450
+Wire Wire Line
+	7850 4450 8050 4450
 Wire Wire Line
 	7850 5100 7850 4450
 Connection ~ 7850 4450
@@ -704,17 +735,17 @@ Text Label 7900 4900 0    40   ~ 0
 ~CS~
 Text Label 7900 5050 0    40   ~ 0
 ~RES~
-Text Label 6850 1600 2    40   ~ 0
+Text Label 8150 1750 2    40   ~ 0
 SDO
-Text Label 6850 1700 2    40   ~ 0
+Text Label 8200 1900 2    40   ~ 0
 SCK
-Text Label 6850 1800 2    40   ~ 0
+Text Label 8450 2050 2    40   ~ 0
 D/~C~
-Text Label 7550 1500 0    40   ~ 0
+Text Label 8550 1700 0    40   ~ 0
 ~CS~
 Wire Wire Line
 	7550 1600 7700 1600
-Text Label 7550 1600 0    40   ~ 0
+Text Label 8550 1900 0    40   ~ 0
 ~RES~
 Wire Wire Line
 	7550 1800 7600 1800
@@ -754,9 +785,9 @@ Wire Wire Line
 	4050 3550 3800 3550
 Wire Wire Line
 	4050 3650 3800 3650
-Text Label 4050 3550 2    40   ~ 0
-BUT_1
 Text Label 4050 3650 2    40   ~ 0
+BUT_1
+Text Label 4050 3550 2    40   ~ 0
 LED_A
 Wire Wire Line
 	4700 4750 4950 4750
@@ -786,9 +817,13 @@ Wire Wire Line
 Wire Wire Line
 	3050 4900 3050 5450
 Wire Wire Line
-	4550 1800 4550 2100
+	4550 1800 4550 2000
 Wire Wire Line
-	7600 1700 7600 1850
+	4550 2000 4550 2100
+Wire Wire Line
+	7600 1700 7600 1800
+Wire Wire Line
+	7600 1800 7600 1850
 Wire Wire Line
 	3900 2700 3900 2600
 $Comp
@@ -843,4 +878,6 @@ F 3 "" H 5650 4300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5650 4300 5650 4600
+Wire Wire Line
+	7600 1500 7600 1450
 $EndSCHEMATC
