@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:microchip_pic16mcu
 LIBS:bb
+LIBS:bb-main-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -79,7 +80,7 @@ U 1 1 56BE0A41
 P 3900 2850
 F 0 "C1" H 3925 2950 50  0000 L CNN
 F 1 "470nF" H 3925 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3938 2700 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 3938 2700 50  0001 C CNN
 F 3 "" H 3900 2850 50  0000 C CNN
 F 4 "https://store.comet.bg/Catalogue/Product/5953/" H 3900 2850 60  0001 C CNN "Store"
 	1    3900 2850
@@ -146,11 +147,7 @@ F 3 "" H 4050 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 1400 4050 1450
-Wire Wire Line
-	4050 1450 4050 1600
-Wire Wire Line
-	4050 1600 4050 1650
+	4050 1400 4050 1650
 Wire Wire Line
 	4050 1600 4100 1600
 Wire Wire Line
@@ -161,9 +158,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 1450 5050 1450
 Wire Wire Line
-	5050 1400 5050 1450
-Wire Wire Line
-	5050 1450 5050 1650
+	5050 1400 5050 1650
 Connection ~ 5050 1450
 Connection ~ 4050 1600
 $Comp
@@ -183,7 +178,7 @@ U 1 1 56C1E999
 P 5050 1800
 F 0 "C3" H 5075 1900 50  0000 L CNN
 F 1 "100nF" H 5075 1700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 1650 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 5088 1650 50  0001 C CNN
 F 3 "" H 5050 1800 50  0000 C CNN
 F 4 "https://store.comet.bg/Catalogue/Product/5957/" H 5050 1800 60  0001 C CNN "Store"
 	1    5050 1800
@@ -250,15 +245,11 @@ Wire Wire Line
 Wire Wire Line
 	3650 3450 4050 3450
 Wire Wire Line
-	3650 3000 3650 3450
-Wire Wire Line
-	3650 3450 3650 4700
+	3650 3000 3650 4700
 Wire Wire Line
 	3650 2600 3650 2700
 Wire Wire Line
-	6050 2000 6050 2100
-Wire Wire Line
-	6050 2100 6050 2650
+	6050 2000 6050 2650
 Text Label 4050 3450 2    40   ~ 0
 ~MCLR~
 $Comp
@@ -281,9 +272,7 @@ Connection ~ 3650 3450
 Wire Wire Line
 	3650 4700 3700 4700
 Wire Wire Line
-	6800 1500 6850 1500
-Wire Wire Line
-	6850 1600 6650 1600
+	6650 1600 6850 1600
 Wire Wire Line
 	6850 1700 6650 1700
 Wire Wire Line
@@ -291,34 +280,30 @@ Wire Wire Line
 $Comp
 L +3.3V #PWR08
 U 1 1 56C2FFFA
-P 7600 1450
-F 0 "#PWR08" H 7600 1300 50  0001 C CNN
-F 1 "+3.3V" H 7600 1590 50  0000 C CNN
-F 2 "" H 7600 1450 50  0000 C CNN
-F 3 "" H 7600 1450 50  0000 C CNN
-	1    7600 1450
+P 6700 1450
+F 0 "#PWR08" H 6700 1300 50  0001 C CNN
+F 1 "+3.3V" H 6700 1590 50  0000 C CNN
+F 2 "" H 6700 1450 50  0000 C CNN
+F 3 "" H 6700 1450 50  0000 C CNN
+	1    6700 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6800 1500 6650 1500
 $Comp
 L GND #PWR09
 U 1 1 56C301AB
-P 7600 1850
-F 0 "#PWR09" H 7600 1600 50  0001 C CNN
-F 1 "GND" H 7600 1700 50  0000 C CNN
-F 2 "" H 7600 1850 50  0000 C CNN
-F 3 "" H 7600 1850 50  0000 C CNN
-	1    7600 1850
-	1    0    0    -1  
+P 7700 1400
+F 0 "#PWR09" H 7700 1150 50  0001 C CNN
+F 1 "GND" H 7700 1250 50  0000 C CNN
+F 2 "" H 7700 1400 50  0000 C CNN
+F 3 "" H 7700 1400 50  0000 C CNN
+	1    7700 1400
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4050 2000 4550 2000
-Wire Wire Line
-	4550 2000 5050 2000
+	4050 2000 5050 2000
 Connection ~ 4550 2000
 Wire Wire Line
-	7550 1500 7600 1500
+	7550 1500 7700 1500
 $Comp
 L SW_PUSH SW1
 U 1 1 56C3A73F
@@ -357,9 +342,7 @@ $EndComp
 Wire Wire Line
 	4700 4300 4700 4400
 Wire Wire Line
-	4700 4700 4700 4750
-Wire Wire Line
-	4700 4750 4700 4800
+	4700 4700 4700 4800
 $Comp
 L GND #PWR011
 U 1 1 56C3DBC8
@@ -453,7 +436,7 @@ U 1 1 56C51EEF
 P 4050 1800
 F 0 "C2" H 4075 1900 50  0000 L CNN
 F 1 "10uF" H 4075 1700 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 4088 1650 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Reflow" H 4088 1650 50  0001 C CNN
 F 3 "" H 4050 1800 50  0000 C CNN
 F 4 "6.3V" H 4050 1800 60  0001 L CNN "Voltage"
 F 5 "https://store.comet.bg/Catalogue/Product/28353/" H 4050 1800 60  0001 C CNN "Store"
@@ -466,7 +449,7 @@ U 1 1 56C5303A
 P 6200 2300
 F 0 "C4" H 6225 2400 50  0000 L CNN
 F 1 "100nF" H 6225 2200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 2150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 6238 2150 50  0001 C CNN
 F 3 "" H 6200 2300 50  0000 C CNN
 F 4 "https://store.comet.bg/Catalogue/Product/5957/" H 6200 2300 60  0001 C CNN "Store"
 	1    6200 2300
@@ -632,27 +615,19 @@ F 4 "https://store.comet.bg/Catalogue/Product/5284/" V 7050 4600 60  0001 C CNN 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7200 5050 7250 5050
-Wire Wire Line
-	7250 5050 8050 5050
+	7200 5050 8050 5050
 Wire Wire Line
 	7250 5050 7250 5100
 Wire Wire Line
-	7200 4900 7400 4900
-Wire Wire Line
-	7400 4900 8050 4900
+	7200 4900 8050 4900
 Wire Wire Line
 	7400 4900 7400 5100
 Wire Wire Line
-	7200 4750 7550 4750
-Wire Wire Line
-	7550 4750 8050 4750
+	7200 4750 8050 4750
 Wire Wire Line
 	7550 4750 7550 5100
 Wire Wire Line
-	7200 4600 7700 4600
-Wire Wire Line
-	7700 4600 8050 4600
+	7200 4600 8050 4600
 Wire Wire Line
 	7700 4600 7700 5100
 Connection ~ 7700 4600
@@ -673,20 +648,12 @@ $EndComp
 Wire Wire Line
 	7250 5400 7250 5450
 Wire Wire Line
-	7250 5450 7400 5450
-Wire Wire Line
-	7400 5450 7550 5450
-Wire Wire Line
-	7550 5450 7700 5450
-Wire Wire Line
-	7700 5450 7850 5450
+	7250 5450 7850 5450
 Wire Wire Line
 	7700 5450 7700 5400
 Connection ~ 7250 5450
 Wire Wire Line
-	7550 5400 7550 5450
-Wire Wire Line
-	7550 5450 7550 5500
+	7550 5400 7550 5500
 Connection ~ 7550 5450
 Wire Wire Line
 	7400 5400 7400 5450
@@ -719,9 +686,7 @@ F 4 "https://store.comet.bg/Catalogue/Product/5284/" V 7050 4450 60  0001 C CNN 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7200 4450 7850 4450
-Wire Wire Line
-	7850 4450 8050 4450
+	7200 4450 8050 4450
 Wire Wire Line
 	7850 5100 7850 4450
 Connection ~ 7850 4450
@@ -735,20 +700,20 @@ Text Label 7900 4900 0    40   ~ 0
 ~CS~
 Text Label 7900 5050 0    40   ~ 0
 ~RES~
-Text Label 8150 1750 2    40   ~ 0
+Text Label 6850 1600 2    40   ~ 0
 SDO
-Text Label 8200 1900 2    40   ~ 0
+Text Label 6850 1700 2    40   ~ 0
 SCK
-Text Label 8450 2050 2    40   ~ 0
+Text Label 6850 1800 2    40   ~ 0
 D/~C~
-Text Label 8550 1700 0    40   ~ 0
+Text Label 7550 1700 0    40   ~ 0
 ~CS~
 Wire Wire Line
-	7550 1600 7700 1600
-Text Label 8550 1900 0    40   ~ 0
+	7700 1600 7550 1600
+Text Label 7550 1800 0    40   ~ 0
 ~RES~
 Wire Wire Line
-	7550 1800 7600 1800
+	7550 1800 7700 1800
 Wire Wire Line
 	6900 4450 6550 4450
 Wire Wire Line
@@ -810,20 +775,13 @@ Wire Notes Line
 Text Notes 6550 1200 0    40   ~ 0
 OLED Conn
 Wire Wire Line
-	7550 1700 7600 1700
-Connection ~ 7600 1800
+	7550 1700 7700 1700
 Wire Wire Line
 	3700 4900 3050 4900
 Wire Wire Line
 	3050 4900 3050 5450
 Wire Wire Line
-	4550 1800 4550 2000
-Wire Wire Line
-	4550 2000 4550 2100
-Wire Wire Line
-	7600 1700 7600 1800
-Wire Wire Line
-	7600 1800 7600 1850
+	4550 1800 4550 2100
 Wire Wire Line
 	3900 2700 3900 2600
 $Comp
@@ -879,5 +837,10 @@ $EndComp
 Wire Wire Line
 	5650 4300 5650 4600
 Wire Wire Line
-	7600 1500 7600 1450
+	7700 1400 7700 1600
+Connection ~ 7700 1500
+Wire Wire Line
+	6700 1450 6700 1500
+Wire Wire Line
+	6700 1500 6850 1500
 $EndSCHEMATC
