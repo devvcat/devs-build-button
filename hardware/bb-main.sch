@@ -194,7 +194,7 @@ F 0 "P2" H 3900 5300 50  0000 C CNN
 F 1 "PICkit3" V 4000 4950 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x06" H 3900 4950 50  0001 C CNN
 F 3 "" H 3900 4950 50  0000 C CNN
-F 4 "https://store.comet.bg/Catalogue/Product/9551/" H 3900 4950 60  0001 C CNN "Store"
+F 4 "83T7200" H 3900 4950 60  0001 C CNN "manf#"
 	1    3900 4950
 	1    0    0    -1  
 $EndComp
@@ -219,6 +219,7 @@ F 1 "PIC16(L)F1455-I/SL" H 4200 3950 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 6050 3350 50  0001 C CNN
 F 3 "" H 6050 3350 50  0000 C CNN
 F 4 "https://store.comet.bg/Catalogue/Product/16084/" H 6050 3350 60  0001 C CNN "Store"
+F 5 "PIC16F1455-I/SL" H 6050 3350 60  0001 C CNN "manf#"
 	1    6050 3350
 	1    0    0    -1  
 $EndComp
