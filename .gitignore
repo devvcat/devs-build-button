@@ -265,3 +265,8 @@ nbactions.xml
 # Autorouter files (exported from Pcbnew)
 .dsn
 
+### MPLAB.X ###
+mplab.x/funclist
+nbproject/Makefile-*
+nbproject/Package-*
+nbproject/project.properties
